@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(195, 235, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+form {
+    background-color: white;
+    border-radius: 1em;
+    margin: 0 auto; 
+    max-width: 900px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 70%;
+    padding: 1em;
+
+
+
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+fieldset {
+    border: 1px solid lightgrey;
+    margin: 10px;
+}
+
