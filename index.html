@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anda Perdagangan</title>
+</head>
+<body>
+    <form id="survey" action="" method="post">
+        <h1>Survey Kepuasan Karyawan</h1>
+        <p><b>Note:</b> Survey ini hanya ditujukan untuk karyawan yang bekerja di toko Anda Perdagangan</p>
+
+        <fieldset>
+            <legend>Data Pribadi:</legend>
+            <label for="nama">Nama:</label>
+            <input type="text" name="nama" id="name" placeholder="Input nama di sini">
+            <br><br>
+            <label for="alamat">Alamat:</label>
+            <textarea name="alamat" id="alamat" cols="30" rows="5"></textarea>
+            <br><br>
+            <label for="lahir">Tanggal Kelahiran:</label>
+            <input type="date" name="lahir" id="lahir">
+            <br><br>
+            <label for="tempat">Kota Kelahiran:</label>
+            <input type="text" id="tempat" name="tempat" placeholder="Input nama kota di sini">
+            <br><br>
+            <label for="telepon">Nomor Telepon:</label>
+            <input type="tel" name="telepon" id="telepon">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" placeholder="anda@gmail.com">
+            <p class="nb">Ketikkan "tidak ada" jika tidak memiliki email.</p>
+
+            <label for="gender">Jenis kelamin:</label>
+            <input type="radio" name="gender" id="gender" value="pria" checked>Laki-Laki 
+            <input type="radio" name="gender" id="gender" value="wanita">Perempuan
+            <input type="radio" name="gender" id="gender" value="other">Lainnya
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <label for="sejak">Sudah mulai bekerja sejak:</label>
+            <input type="date" name="sejak" id="sejak">
+            <br><br>
+
+            <label for="sebagai">Bekerja sebagai:</label>
+                <select id="sebagai">
+                    <option value="sales">Sales</option>
+                    <option value="ahli-bangunan">Ahli bangunan</option>
+                    <option value="pengangkutan">Pengangkutan</option>
+                    <option value="administrasi">Admin</option>
+                    <option value="manajer">Manajer</option>
+                </select>
+            <br><br> 
+
+            <label for="deskjob">Deskjob:</label>
+            <p>
+                <input type="checkbox" name="deskjob" id="penjualan">Penjualan<br>
+                <input type="checkbox" name="deskjob" id="pembersihan">Cleaning Service<br>
+                <input type="checkbox" name="deskjob" id="pengangkutan">Pengangkutan<br>
+                <input type="checkbox" name="deskjob" id="administrasi">Administrasi<br>
+                <input type="checkbox" name="deskjob" id="pemasangan">Pemasangan<br>
+                <input type="checkbox" name="deskjob" id="tukang">Tukang Bangunan <br>
+                <input type="checkbox" name="deskjob" id="hitng">Pengitungan Stok Barang
+            </p>
+            
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Kepuasan Karyawan:</legend>
+            <label for="kepuasan">Tingkat Kepuasan Karyawan:</label>
+            <input type="range" name="kepuasan" id="kepuasan" min="0" max="10">
+            <br><br>
+
+            
+            <label for="kenapa">Kenapa memilih tingkat kepuasan itu?</label>
+            <textarea name="kenapa" id="kenapa" cols="30" rows="5"></textarea>
+        </fieldset>
+        <br><br>
+
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">    
+  </form>
+
+</body>
+</html>
