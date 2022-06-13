@@ -13,7 +13,8 @@
 <body>
     <form id="survey" action="" method="post">
         <h1>Survey Kepuasan Karyawan</h1>
-        <p><b>Note:</b> Survey ini hanya ditujukan untuk karyawan yang bekerja di toko Anda Perdagangan</p>
+        <p><b>Note:</b> Survey ini hanya ditujukan untuk karyawan yang bekerja di toko Anda Perdagangan.</p> 
+        <p>Bagi yang mengisi form ini di laptop, diusahakan untuk tidak menekan tombol "enter" di keyboard sampai seluruh form diisi dengan baik</p>
 
         <fieldset>
             <legend>Data Pribadi:</legend>
@@ -21,12 +22,12 @@
             <input type="text" name="nama" id="name" placeholder="Input nama di sini">
             <br><br>
             <label for="alamat">Alamat:</label>
-            <textarea name="alamat" id="alamat" cols="30" rows="5"></textarea>
+            <textarea name="alamat" id="alamat" cols="30" rows="5" placeholder="Nama Jalan, Nama Kabupaten, Sumatera Utara, Kode Pos"></textarea>
             <br><br>
             <label for="lahir">Tanggal Kelahiran:</label>
             <input type="date" name="lahir" id="lahir">
             <br><br>
-            <label for="tempat">Kota Kelahiran:</label>
+            <label for="tempat">Tempat Kelahiran:</label>
             <input type="text" id="tempat" name="tempat" placeholder="Input nama kota di sini">
             <br><br>
             <label for="telepon">Nomor Telepon:</label>
@@ -58,8 +59,7 @@
                 </select>
             <br><br> 
 
-            <label for="deskjob">Deskjob:</label>
-            <p>
+            <label for="deskjob" class="deskjob">Deskjob:</label><br>
                 <input type="checkbox" name="deskjob" id="penjualan">Penjualan<br>
                 <input type="checkbox" name="deskjob" id="pembersihan">Cleaning Service<br>
                 <input type="checkbox" name="deskjob" id="pengangkutan">Pengangkutan<br>
@@ -67,7 +67,7 @@
                 <input type="checkbox" name="deskjob" id="pemasangan">Pemasangan<br>
                 <input type="checkbox" name="deskjob" id="tukang">Tukang Bangunan <br>
                 <input type="checkbox" name="deskjob" id="hitng">Pengitungan Stok Barang
-            </p>
+
             
         </fieldset>
 
@@ -80,12 +80,13 @@
 
             
             <label for="kenapa">Kenapa memilih tingkat kepuasan itu?</label>
-            <textarea name="kenapa" id="kenapa" cols="30" rows="5"></textarea>
+            <textarea name="kenapa" id="kenapa" cols="60" rows="10"></textarea>
         </fieldset>
-        <br><br>
 
-        <input type="submit" value="submit" class="button">
-        <input type="reset" value="reset" class="button">    
+        <div align="center">
+            <input type="submit" value="submit" class="button" id="submit">
+        </div>
+            
   </form>
 
 </body>

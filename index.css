@@ -25,7 +25,6 @@ h1 {
 
 fieldset {
     border: 1px solid lightgrey;
-
     margin: 10px;
 
 }
@@ -38,9 +37,15 @@ input, textarea {
     border: 1px solid lightgrey;
 }
 
+
 input:focus, textarea:focus {
     background-color: aliceblue;
     border-color: antiquewhite;
+}
+
+input:hover, textarea:hover {
+    background-color: aliceblue;
+    border-color: solid rgb(215, 234, 250);
 }
 
 textarea{
@@ -52,4 +57,44 @@ textarea{
 
 .button {
     justify-content: center;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: capitalize;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    padding: 1em;
+    font-size: 1em;
+    width: 10em;
+    
+
+
 }
+
+#submit:hover {
+    background-color: rgb(202, 230, 255);
+}
+
+.nb {
+    font-size: .8em;
+    font-style: italic;
+    color: #999999;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: .7em;
+    font-weight: bold;
+}
+
+#kenapa {
+    height: 10em;
+}
+
+.deskjob {
+    line-height: 1.2em;
+}
+
+#email {
+    width: 20em;
+}
+
