@@ -47,9 +47,17 @@ input:hover, textarea:hover {
 
 textarea{
     vertical-align: top;
-    height: 5em;
     resize: vertical;
     overflow: auto;
+    height: auto;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    textarea {
+        width: auto;
+        height: auto;
+    }
 }
 
 .button {
@@ -86,21 +94,4 @@ textarea{
 
 .deskjob {
     line-height: 1.2em;
-}
-
-#email {
-    width: 100%;
-}
-
-#alamat {
-    width: 100%;
-}
-
-@media (min-width: 600px) {
-    #alamat {
-       width: 40%; 
-    }
-    #email {
-        width: 30%;
-    }
 }
