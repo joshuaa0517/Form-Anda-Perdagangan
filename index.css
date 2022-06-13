@@ -89,10 +89,18 @@ textarea{
 }
 
 #email {
-    width: 20em;
+    width: 100%;
 }
 
 #alamat {
-    height: 6em;
-    width: 28em;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    #alamat {
+       width: 40%; 
+    }
+    #email {
+        width: 30%;
+    }
 }
