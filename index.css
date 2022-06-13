@@ -13,9 +13,6 @@ form {
     padding-bottom: 25px;
     width: 70%;
     padding: 1em;
-
-
-
 }
 
 h1 {
@@ -67,9 +64,6 @@ textarea{
     padding: 1em;
     font-size: 1em;
     width: 10em;
-    
-
-
 }
 
 #submit:hover {
@@ -98,3 +92,7 @@ textarea{
     width: 20em;
 }
 
+#alamat {
+    height: 6em;
+    width: 28em;
+}
